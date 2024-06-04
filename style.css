@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fbeb; /* Light beige background */
+    
+  }
+ 
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #333; /* Dark brown text */
+  }
+  .contact-form {
+    width: 70%;
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: #2e8b57; /* Greenish blue link color */
+  }
+  
+  a:hover {
+    color: #0069d9; /* Darker blue link hover */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header Styles */
+  .hero {
+    background-color: #a9c5a6; /* Light greenish background */
+    color: #fff; /* White text */
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero-container {
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    background-color: #2e8b57; /* Greenish blue button color */
+    color: #fff; /* White button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9; /* Darker blue button hover */
+  }
+  
+  .btn-light {
+    background-color: transparent;
+    color: #fff; /* White text */
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-light:hover {
+    background-color: #a9c5a6; /* Light greenish background hover */
+    color: #2e8b57; /* Greenish blue text hover */
+  }
+  
+  /* About Us Styles */
+  .about {
+    padding: 50px 0;
+  }
+  
+  /* Products Styles */
+  .products {
+    padding: 50px 0;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .product {
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e8f0e7; /* Light greenish background */
+  }
+  
+  .product img {
+    margin-bottom: 10px;
+  }
+  
+  /* Sustainability Styles */
+  .sustainability {
+    padding: 50px 0;
+  }
+  
+  /* Testimonials Styles */
+  .testimonials {
+    padding: 50px 0;
+  }
+  
+  .testimonial-slider {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e2e2e2; /* Light gray background */
+  }
+  
+  .testimonial-slider p {
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  
+  /* Blog Styles */
+  .blog {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Contact Styles */
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%; /* Adjust width here (e.g., 60%) */
+  }
+  
+  .product {
+    width: calc(20% - 20px); /* Adjust width here (e.g., 50%) */
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e8f0e7; /* Light greenish background */
+  }
+  
+  .product {
+    /* Existing styles... */
+    transition: background-color 0.2s ease-in-out; /* Add transition property */
+  }
+  
+  .product:hover {
+    background-color: #d0edec; /* New background color on hover (light greenish blue) */
+  }
+
+  .product:hover {
+    background-color: #d0edec;
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow on hover */
+  }
+  .bgimage {
+    /* Styles for the background section */
+    position: fixed; /* Ensures the background stays fixed on scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Covers the entire viewport */
+    background-image: url("bg.jpg"); /* Replace "bg.jpg" with your background image filename */
+    background-size: cover; /* Ensure image covers the entire background */
+    filter: blur(5px); /* Add blur effect (adjust as needed) */
+    z-index: -1; /* Place the background behind all content */
+  }
+  .about-us-bg {
+    /* Styles for the image behind About Us section */
+    position: absolute; /* Ensures the image is positioned within the section */
+    top: 0; /* Positions the image to the top of the section */
+    left: 0; /* Positions the image to the left of the section */
+    width: 100%; /* Stretches the image to cover the entire section width */
+    height: 100%; /* Stretches the image to cover the entire section height */
+    object-fit: cover; /* Ensures image covers the area while maintaining aspect ratio */
+    z-index: -1; /* Positions the image behind the about us content */
+    /* Optional styles: opacity, filter (blur) */
+    filter: blur(6px);
+  }
+  
+
+  .contact ul {
+    list-style: none
+  
